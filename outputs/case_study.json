@@ -1,0 +1,83 @@
+[
+  {
+    "text": "都怪我我应该送花圈。这样以后也能用得上",
+    "platform": "tieba",
+    "note": "案例1 反讽自责",
+    "baseline_pred": 0,
+    "baseline_conf": 1.0,
+    "optimized_pred": 1,
+    "optimized_conf": 0.999
+  },
+  {
+    "text": "那你知道自己最后还是要嘎掉的, 怎么不天天随身携带棺材",
+    "platform": "wb",
+    "note": "案例2 极端类比隐喻",
+    "baseline_pred": 0,
+    "baseline_conf": 1.0,
+    "optimized_pred": 1,
+    "optimized_conf": 0.993
+  },
+  {
+    "text": "你的资本就是身后挺你的那帮人穷志不穷的兄弟啊, 不然你这屁大点地方能有啥资本？？？",
+    "platform": "zhihu",
+    "note": "案例3 反问式贬低",
+    "baseline_pred": 1,
+    "baseline_conf": 0.974,
+    "optimized_pred": 1,
+    "optimized_conf": 0.999
+  },
+  {
+    "text": "是暂时管不了，但是这是普通民众朴素的愿望",
+    "platform": "zhihu",
+    "note": "普通-1a 中性",
+    "baseline_pred": 0,
+    "baseline_conf": 1.0,
+    "optimized_pred": 0,
+    "optimized_conf": 0.863
+  },
+  {
+    "text": "作者外国男朋友的特征，如果出现在国男身上，就不是优点了，毕竟这些特征那么普通又那么自信",
+    "platform": "zhihu",
+    "note": "普通-1b 隐性有害",
+    "baseline_pred": 0,
+    "baseline_conf": 0.992,
+    "optimized_pred": 1,
+    "optimized_conf": 0.999
+  },
+  {
+    "text": "ai 漫剧挺好看的，但 ai 真人是真难看",
+    "platform": "xhs",
+    "note": "好看-2a 中性",
+    "baseline_pred": 0,
+    "baseline_conf": 0.902,
+    "optimized_pred": 0,
+    "optimized_conf": 0.985
+  },
+  {
+    "text": "豆包说你好看，可能长在它的审美上",
+    "platform": "xhs",
+    "note": "好看-2b 隐性有害",
+    "baseline_pred": 0,
+    "baseline_conf": 0.949,
+    "optimized_pred": 1,
+    "optimized_conf": 1.0
+  },
+  {
+    "text": "保护我方输出",
+    "platform": "xhs",
+    "note": "保护-3a 中性",
+    "baseline_pred": 0,
+    "baseline_conf": 0.987,
+    "optimized_pred": 0,
+    "optimized_conf": 0.972
+  },
+  {
+    "text": "不要出生是对她们最好的保护",
+    "platform": "zhihu",
+    "note": "保护-3b 隐性有害",
+    "baseline_pred": 0,
+    "baseline_conf": 1.0,
+    "optimized_pred": 1,
+    "optimized_conf": 0.564
+  }
+]

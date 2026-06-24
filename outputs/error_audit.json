@@ -1,0 +1,9 @@
+{
+  "audited": 192,
+  "verdict_counts": {
+    "model_wrong": 114,
+    "ambiguous": 43,
+    "label_wrong": 35
+  },
+  "label_error_rate_in_disagreements": 0.18229166666666666
+}
